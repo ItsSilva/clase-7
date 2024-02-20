@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.contenedor{
+    border: .1rem solid black;
+    width: 500px;
+    height: 500px;
+}
+
+.contenedor__cajita{
+    border: .1rem solid orange;
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor__cajita--relativo{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    /* right: 50px;
+    bottom: 50px;        
+    Usar left y top o right y bottom. Solo usar dos y no los cuatro. */
+}
+
+.contenedor__cajita--absoluto{
+    position: absolute;
+}
+
+.contenedor__cajita--azul{
+    background-color: blue;
+    z-index: 1;
+}
+
+.contenedor__cajita--verde{
+    background-color: green;
+    z-index: 0;
+}
